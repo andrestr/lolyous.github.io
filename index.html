@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html>
 	<meta charset="utf-8">
+	<link rel="icon" type="image/jpg" href="ical.jpg" />
 	<head>
 		<title>Inicio</title>
 	</head>
 	<style type="text/css">
 	 	body{
-	 			background-color: gray;
+
+	 		overflow-z:-1; 
+	 			
 	 	}
+	 	.fondo{	
+	 			background-image: url("fcal.jpg");
+	 			background-repeat: no-repeat;
+    			position: top center;
+    			 background-size: 100%;
+    			background-attachment: fixed; 
+	 			}
 		.menu{
 				position: fixed;
 				background-color: black;
@@ -46,11 +56,12 @@
 
 		 		 } 
 		 .info{ position: absolute;
-		 		top:200%;
+		 		top:20%;
 		 		left:15%;
 		 		 }		 
+		 		 h1{color: white;}
 	</style>
-	<body>
+	<body class="fondo">
 		<div class="menu">
 			<a href=""><label class="l">Inicio</label></a>
 			<a href=""><label class="l">dos</label></a>
@@ -60,7 +71,9 @@
 			<a href=""><label class="l">dos</label></a>
 		</div>
 		<section class="info">
-			<h1>Calacas chilenas</h1>
+			<h1 >Calacas chilenas</h1><hr>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/rPogT6BOAbE"frameborder="0" encrypted-media" allowfullscreen></iframe>
+
 		</section>
 	</body>
 </html>
