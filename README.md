@@ -9,3 +9,5 @@ Indice de prácticas bootstrap
 <a href="https://lolyous.github.io/practica4.html">Practica 4 de bootstrap.</a>
 
 <a href="https://lolyous.github.io/practica5.html">Practica 5 de bootstrap.</a>
+
+<a href="https://lolyous.github.io/practica6.html">Practica 6 de bootstrap.-</a>
